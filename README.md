@@ -77,15 +77,6 @@ Functions / Lines** (umbral configurado en 90% vía `coverageThreshold` en
 
 ---
 
-### Notas sobre el uso de IA en este proyecto
-
-- Herramienta: Claude (Anthropic), modelo Sonnet 5.
-- Todo el código generado fue **compilado (`nest build`) y probado
-  (`npx jest --coverage`) dentro del proceso de generación**, no solo
-  redactado — cada entrega se verificó funcional antes de presentarse.
-- El desarrollador revisó, ejecutó y validó cada entregable localmente
-  antes de integrarlo al proyecto final.
-
 ## Principio de diseño: lógica de negocio separada de la API
 
 ```
@@ -239,3 +230,11 @@ npm run test:cov
 de la cobertura (`collectCoverageFrom` en `package.json`) por ser bootstrap o
 declaraciones de tipos sin lógica ejecutable propia.
 
+### Notas sobre el uso de IA en este proyecto
+
+- Herramienta: Claude (Anthropic), modelo Sonnet 5.
+- Todo el código generado fue **compilado (`nest build`) y probado
+  (`npx jest --coverage`) dentro del proceso de generación**, no solo
+  redactado — cada entrega se verificó funcional antes de presentarse.
+- El desarrollador revisó, ejecutó y validó cada entregable localmente
+  antes de integrarlo al proyecto final.
